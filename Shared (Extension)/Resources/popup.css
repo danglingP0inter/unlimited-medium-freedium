@@ -70,6 +70,7 @@ h1 {
     background: #f5f5f5;
     border-radius: 8px;
     padding: 10px;
+    display: none;
 }
 
 .info {

@@ -21,38 +21,50 @@ browser.storage.local.get(['articleCount', 'dailyStats']).then((result) => {
 
     const data = last7Days.map(date => dailyStats[date] || 0);
 
-    // Create chart
-    const ctx = document.getElementById('dailyChart').getContext('2d');
-    new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: labels,
-            datasets: [{
-                label: 'Articles Read',
-                data: data,
-                backgroundColor: '#2196F3',
-                borderColor: '#1976D2',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    ticks: {
-                        stepSize: 1
+    // Check if there's any data to show
+    const hasData = data.some(count => count > 0);
+    const chartContainer = document.querySelector('.chart-container');
+    
+    if (hasData) {
+        // Show chart container
+        chartContainer.style.display = 'block';
+        
+        // Create chart
+        const ctx = document.getElementById('dailyChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Articles Read',
+                    data: data,
+                    backgroundColor: '#2196F3',
+                    borderColor: '#1976D2',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
                     }
                 }
-            },
-            plugins: {
-                legend: {
-                    display: false
-                }
             }
-        }
-    });
+        });
+    } else {
+        // Hide chart container if no data
+        chartContainer.style.display = 'none';
+    }
 });
 
 // Extension popup functionality can be added here if needed
