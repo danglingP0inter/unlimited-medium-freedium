@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E96F97FC2DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E96F97FB2DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E96F98062DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E96F98052DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E96F97FD2DB3941A00C6B555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96F97C12DB3941800C6B555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96F97FA2DB3941A00C6B555;
+			remoteInfo = "unlimited-medium-freedium Extension (iOS)";
+		};
+		E96F98072DB3941A00C6B555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96F97C12DB3941800C6B555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96F98042DB3941A00C6B555;
+			remoteInfo = "unlimited-medium-freedium Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E96F982F2DB3941A00C6B555 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E96F97FC2DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F98392DB3941A00C6B555 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E96F98062DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E96F97DD2DB3941A00C6B555 /* unlimited-medium-freedium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unlimited-medium-freedium.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96F97EF2DB3941A00C6B555 /* unlimited-medium-freedium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unlimited-medium-freedium.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96F97FB2DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "unlimited-medium-freedium Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96F98052DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "unlimited-medium-freedium Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E96F982A2DB3941A00C6B555 /* Exceptions for "Shared (App)" folder in "unlimited-medium-freedium (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = E96F97DC2DB3941A00C6B555 /* unlimited-medium-freedium (iOS) */;
+		};
+		E96F982E2DB3941A00C6B555 /* Exceptions for "iOS (Extension)" folder in "unlimited-medium-freedium Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E96F97FA2DB3941A00C6B555 /* unlimited-medium-freedium Extension (iOS) */;
+		};
+		E96F98332DB3941A00C6B555 /* Exceptions for "iOS (App)" folder in "unlimited-medium-freedium (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E96F97DC2DB3941A00C6B555 /* unlimited-medium-freedium (iOS) */;
+		};
+		E96F98342DB3941A00C6B555 /* Exceptions for "Shared (App)" folder in "unlimited-medium-freedium (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = E96F97EE2DB3941A00C6B555 /* unlimited-medium-freedium (macOS) */;
+		};
+		E96F98382DB3941A00C6B555 /* Exceptions for "macOS (Extension)" folder in "unlimited-medium-freedium Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E96F98042DB3941A00C6B555 /* unlimited-medium-freedium Extension (macOS) */;
+		};
+		E96F983D2DB3941A00C6B555 /* Exceptions for "Shared (Extension)" folder in "unlimited-medium-freedium Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				Resources/popup.css,
+				Resources/popup.html,
+				Resources/popup.js,
+				SafariWebExtensionHandler.swift,
+			);
+			target = E96F97FA2DB3941A00C6B555 /* unlimited-medium-freedium Extension (iOS) */;
+		};
+		E96F983E2DB3941A00C6B555 /* Exceptions for "Shared (Extension)" folder in "unlimited-medium-freedium Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				Resources/popup.css,
+				Resources/popup.html,
+				Resources/popup.js,
+				SafariWebExtensionHandler.swift,
+			);
+			target = E96F98042DB3941A00C6B555 /* unlimited-medium-freedium Extension (macOS) */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E96F97C52DB3941800C6B555 /* Shared (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E96F982A2DB3941A00C6B555 /* Exceptions for "Shared (App)" folder in "unlimited-medium-freedium (iOS)" target */,
+				E96F98342DB3941A00C6B555 /* Exceptions for "Shared (App)" folder in "unlimited-medium-freedium (macOS)" target */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		E96F97CE2DB3941A00C6B555 /* Shared (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E96F983D2DB3941A00C6B555 /* Exceptions for "Shared (Extension)" folder in "unlimited-medium-freedium Extension (iOS)" target */,
+				E96F983E2DB3941A00C6B555 /* Exceptions for "Shared (Extension)" folder in "unlimited-medium-freedium Extension (macOS)" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		E96F97DF2DB3941A00C6B555 /* iOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E96F98332DB3941A00C6B555 /* Exceptions for "iOS (App)" folder in "unlimited-medium-freedium (iOS)" target */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		E96F97F02DB3941A00C6B555 /* macOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		E96F97FF2DB3941A00C6B555 /* iOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E96F982E2DB3941A00C6B555 /* Exceptions for "iOS (Extension)" folder in "unlimited-medium-freedium Extension (iOS)" target */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		E96F98092DB3941A00C6B555 /* macOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E96F98382DB3941A00C6B555 /* Exceptions for "macOS (Extension)" folder in "unlimited-medium-freedium Extension (macOS)" target */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E96F97DA2DB3941A00C6B555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F97EC2DB3941A00C6B555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F97F82DB3941A00C6B555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F98022DB3941A00C6B555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E96F97C02DB3941800C6B555 = {
+			isa = PBXGroup;
+			children = (
+				E96F97C52DB3941800C6B555 /* Shared (App) */,
+				E96F97CE2DB3941A00C6B555 /* Shared (Extension) */,
+				E96F97DF2DB3941A00C6B555 /* iOS (App) */,
+				E96F97F02DB3941A00C6B555 /* macOS (App) */,
+				E96F97FF2DB3941A00C6B555 /* iOS (Extension) */,
+				E96F98092DB3941A00C6B555 /* macOS (Extension) */,
+				E96F97DE2DB3941A00C6B555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E96F97DE2DB3941A00C6B555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E96F97DD2DB3941A00C6B555 /* unlimited-medium-freedium.app */,
+				E96F97EF2DB3941A00C6B555 /* unlimited-medium-freedium.app */,
+				E96F97FB2DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex */,
+				E96F98052DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E96F97DC2DB3941A00C6B555 /* unlimited-medium-freedium (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96F98302DB3941A00C6B555 /* Build configuration list for PBXNativeTarget "unlimited-medium-freedium (iOS)" */;
+			buildPhases = (
+				E96F97D92DB3941A00C6B555 /* Sources */,
+				E96F97DA2DB3941A00C6B555 /* Frameworks */,
+				E96F97DB2DB3941A00C6B555 /* Resources */,
+				E96F982F2DB3941A00C6B555 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96F97FE2DB3941A00C6B555 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E96F97DF2DB3941A00C6B555 /* iOS (App) */,
+			);
+			name = "unlimited-medium-freedium (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "unlimited-medium-freedium (iOS)";
+			productReference = E96F97DD2DB3941A00C6B555 /* unlimited-medium-freedium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E96F97EE2DB3941A00C6B555 /* unlimited-medium-freedium (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96F983A2DB3941A00C6B555 /* Build configuration list for PBXNativeTarget "unlimited-medium-freedium (macOS)" */;
+			buildPhases = (
+				E96F97EB2DB3941A00C6B555 /* Sources */,
+				E96F97EC2DB3941A00C6B555 /* Frameworks */,
+				E96F97ED2DB3941A00C6B555 /* Resources */,
+				E96F98392DB3941A00C6B555 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96F98082DB3941A00C6B555 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E96F97F02DB3941A00C6B555 /* macOS (App) */,
+			);
+			name = "unlimited-medium-freedium (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "unlimited-medium-freedium (macOS)";
+			productReference = E96F97EF2DB3941A00C6B555 /* unlimited-medium-freedium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E96F97FA2DB3941A00C6B555 /* unlimited-medium-freedium Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96F982B2DB3941A00C6B555 /* Build configuration list for PBXNativeTarget "unlimited-medium-freedium Extension (iOS)" */;
+			buildPhases = (
+				E96F97F72DB3941A00C6B555 /* Sources */,
+				E96F97F82DB3941A00C6B555 /* Frameworks */,
+				E96F97F92DB3941A00C6B555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E96F97FF2DB3941A00C6B555 /* iOS (Extension) */,
+			);
+			name = "unlimited-medium-freedium Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "unlimited-medium-freedium Extension (iOS)";
+			productReference = E96F97FB2DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E96F98042DB3941A00C6B555 /* unlimited-medium-freedium Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96F98352DB3941A00C6B555 /* Build configuration list for PBXNativeTarget "unlimited-medium-freedium Extension (macOS)" */;
+			buildPhases = (
+				E96F98012DB3941A00C6B555 /* Sources */,
+				E96F98022DB3941A00C6B555 /* Frameworks */,
+				E96F98032DB3941A00C6B555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E96F98092DB3941A00C6B555 /* macOS (Extension) */,
+			);
+			name = "unlimited-medium-freedium Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "unlimited-medium-freedium Extension (macOS)";
+			productReference = E96F98052DB3941A00C6B555 /* unlimited-medium-freedium Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E96F97C12DB3941800C6B555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E96F97DC2DB3941A00C6B555 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E96F97EE2DB3941A00C6B555 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E96F97FA2DB3941A00C6B555 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E96F98042DB3941A00C6B555 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = E96F97C42DB3941800C6B555 /* Build configuration list for PBXProject "unlimited-medium-freedium" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E96F97C02DB3941800C6B555;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E96F97DE2DB3941A00C6B555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E96F97DC2DB3941A00C6B555 /* unlimited-medium-freedium (iOS) */,
+				E96F97EE2DB3941A00C6B555 /* unlimited-medium-freedium (macOS) */,
+				E96F97FA2DB3941A00C6B555 /* unlimited-medium-freedium Extension (iOS) */,
+				E96F98042DB3941A00C6B555 /* unlimited-medium-freedium Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E96F97DB2DB3941A00C6B555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F97ED2DB3941A00C6B555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F97F92DB3941A00C6B555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F98032DB3941A00C6B555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E96F97D92DB3941A00C6B555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F97EB2DB3941A00C6B555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F97F72DB3941A00C6B555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F98012DB3941A00C6B555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E96F97FE2DB3941A00C6B555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96F97FA2DB3941A00C6B555 /* unlimited-medium-freedium Extension (iOS) */;
+			targetProxy = E96F97FD2DB3941A00C6B555 /* PBXContainerItemProxy */;
+		};
+		E96F98082DB3941A00C6B555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96F98042DB3941A00C6B555 /* unlimited-medium-freedium Extension (macOS) */;
+			targetProxy = E96F98072DB3941A00C6B555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E96F982C2DB3941A00C6B555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV98BBMMTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "unlimited-medium-freedium Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirti.unlimited-medium-freedium.Extension";
+				PRODUCT_NAME = "unlimited-medium-freedium Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96F982D2DB3941A00C6B555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV98BBMMTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "unlimited-medium-freedium Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirti.unlimited-medium-freedium.Extension";
+				PRODUCT_NAME = "unlimited-medium-freedium Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E96F98312DB3941A00C6B555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV98BBMMTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "unlimited-medium-freedium";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirti.unlimited-medium-freedium";
+				PRODUCT_NAME = "unlimited-medium-freedium";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96F98322DB3941A00C6B555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV98BBMMTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "unlimited-medium-freedium";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirti.unlimited-medium-freedium";
+				PRODUCT_NAME = "unlimited-medium-freedium";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E96F98362DB3941A00C6B555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/unlimited-medium-freedium.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV98BBMMTT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "unlimited-medium-freedium Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirti.unlimited-medium-freedium.Extension";
+				PRODUCT_NAME = "unlimited-medium-freedium Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E96F98372DB3941A00C6B555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/unlimited-medium-freedium.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV98BBMMTT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "unlimited-medium-freedium Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirti.unlimited-medium-freedium.Extension";
+				PRODUCT_NAME = "unlimited-medium-freedium Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E96F983B2DB3941A00C6B555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/unlimited-medium-freedium.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV98BBMMTT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "unlimited-medium-freedium";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirti.unlimited-medium-freedium";
+				PRODUCT_NAME = "unlimited-medium-freedium";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E96F983C2DB3941A00C6B555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/unlimited-medium-freedium.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV98BBMMTT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "unlimited-medium-freedium";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirti.unlimited-medium-freedium";
+				PRODUCT_NAME = "unlimited-medium-freedium";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E96F983F2DB3941A00C6B555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E96F98402DB3941A00C6B555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E96F97C42DB3941800C6B555 /* Build configuration list for PBXProject "unlimited-medium-freedium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96F983F2DB3941A00C6B555 /* Debug */,
+				E96F98402DB3941A00C6B555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96F982B2DB3941A00C6B555 /* Build configuration list for PBXNativeTarget "unlimited-medium-freedium Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96F982C2DB3941A00C6B555 /* Debug */,
+				E96F982D2DB3941A00C6B555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96F98302DB3941A00C6B555 /* Build configuration list for PBXNativeTarget "unlimited-medium-freedium (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96F98312DB3941A00C6B555 /* Debug */,
+				E96F98322DB3941A00C6B555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96F98352DB3941A00C6B555 /* Build configuration list for PBXNativeTarget "unlimited-medium-freedium Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96F98362DB3941A00C6B555 /* Debug */,
+				E96F98372DB3941A00C6B555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96F983A2DB3941A00C6B555 /* Build configuration list for PBXNativeTarget "unlimited-medium-freedium (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96F983B2DB3941A00C6B555 /* Debug */,
+				E96F983C2DB3941A00C6B555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E96F97C12DB3941800C6B555 /* Project object */;
+}
