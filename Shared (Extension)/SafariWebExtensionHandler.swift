@@ -2,7 +2,7 @@
 //  SafariWebExtensionHandler.swift
 //  Shared (Extension)
 //
-//  Created by Kirti verma on 19/04/25.
+//  Created by Kirti Verma on 19/04/25.
 //
 
 import SafariServices
