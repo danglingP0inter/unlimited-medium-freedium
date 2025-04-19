@@ -1,3 +1,19 @@
+// Initialize extension state
+browser.storage.local.get(['extensionEnabled']).then((result) => {
+    const extensionToggle = document.getElementById('extensionToggle');
+    extensionToggle.checked = result.extensionEnabled !== false; // Default to enabled if not set
+});
+
+// Handle toggle changes
+document.getElementById('extensionToggle').addEventListener('change', (event) => {
+    const isEnabled = event.target.checked;
+    
+    // Save the state
+    browser.storage.local.set({ extensionEnabled: isEnabled }).then(() => {
+        console.log('Extension state updated:', isEnabled);
+    });
+});
+
 // Get and display the article count
 browser.storage.local.get(['articleCount', 'dailyStats']).then((result) => {
     console.log('Storage data:', result);
