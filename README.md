@@ -9,6 +9,8 @@ A Safari extension that automatically redirects Medium articles to Freedium, all
 - Works with all Medium domains (medium.com and *.medium.com)
 - No configuration needed - just install and it works!
 - Redirects all Medium articles to Freedium, regardless of whether they are free or premium
+- Tracks your reading activity with a daily article counter
+- Shows reading statistics with a beautiful bar chart
 
 ## Installation
 
@@ -25,12 +27,26 @@ A Safari extension that automatically redirects Medium articles to Freedium, all
 
 The extension automatically redirects any Medium article URL to its Freedium counterpart. This includes both free and premium articles, ensuring a consistent reading experience without having to check if an article is behind a paywall.
 
+### Article Detection
+The extension only redirects actual article pages, identified by:
+- URL pattern: `medium.com/@username/article-slug`
+- Must contain an author handle (starting with @)
+- Must have an article slug
+- Homepage and other Medium pages are not redirected
+
+### Reading Statistics
+- Tracks total number of articles read
+- Shows daily reading activity for the last 7 days
+- Displays a bar chart when there's reading activity
+- Statistics persist across browser sessions
+
 ## Development
 
 This is a Safari Web Extension built using:
 - Swift for native functionality
 - JavaScript for web content handling
 - Safari Extension API for browser integration
+- Chart.js for data visualization
 
 ## License
 
