@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/bd87207b-fede-4c23-b89a-b95dc24133ef
 
 The extension is built using:
 - HTML/CSS/JavaScript for the popup interface
-- Browser extension APIs for functionality
+- Browser extension APIs in Swift for functionality
 - Chart.js for statistics visualization (in development - currently disabled)
 
 ## License
@@ -59,14 +59,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to file a bug report and/or submit a Pull Request.
 
 ## Support
 
-If you find this extension useful, consider:
+If you find this extension useful, please consider:
 - Giving it a star on GitHub
 - Supporting [Freedium](https://freedium.cfd) by donating to help maintain their service
-- Sharing it with others who might benefit from it
 
 ## Acknowledgements
 
