@@ -2,23 +2,28 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <title>Unlimited Medium</title>
     <link rel="stylesheet" href="popup.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script type="module" src="popup.js"></script>
 </head>
 <body>
     <div class="container">
-        <img src="images/icon-128.png" alt="Unlimited Medium Freedium" class="logo">
-        <h1>Unlimited Medium Freedium</h1>
-        <p class="status">Extension is active</p>
-        <div class="counter">
-            <img src="images/reading.svg" alt="Reading" class="reading-icon">
-            <p>Total Articles: <span id="articleCount">0</span></p>
+        <div class="header">
+            <img src="images/icon-48.png" alt="Unlimited Medium Icon" class="icon">
+            <h1>Unlimited Medium</h1>
         </div>
-        <div class="chart-container">
-            <canvas id="dailyChart"></canvas>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-label">Articles Read Today:</span>
+                <span class="stat-value" id="articleCount">0</span>
+            </div>
         </div>
-        <p class="info">Automatically redirects Medium articles to Freedium</p>
+        
+        <div class="footer">
+            <p>Enjoy unlimited access to Medium articles!</p>
+        </div>
     </div>
+    <script src="popup.js"></script>
 </body>
 </html>
