@@ -29,10 +29,11 @@ The extension recognizes and redirects the following Medium URL patterns:
 
 ## Installation
 
-1. Clone this repository
-2. Open your browser's extension management page
+1. Download the latest release from [Releases](https://github.com/danglingP0inter/unlimited-medium-freedium/releases). Unzip it.
+2. Open Safari browser's extension management page
 3. Enable Developer mode
 4. Click "Load unpacked" and select the extension directory
+5. Enjoy!
 
 ## Usage
 
