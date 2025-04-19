@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="popup.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="module" src="popup.js"></script>
 </head>
 <body>
@@ -11,8 +12,11 @@
         <h1>Unlimited Medium Freedium</h1>
         <p class="status">Extension is active</p>
         <div class="counter">
-            <img src="images/reading.png" alt="Reading" class="reading-icon">
-            <p>Articles read: <span id="articleCount">0</span></p>
+            <img src="images/reading.svg" alt="Reading" class="reading-icon">
+            <p>Total Articles: <span id="articleCount">0</span></p>
+        </div>
+        <div class="chart-container">
+            <canvas id="dailyChart"></canvas>
         </div>
         <p class="info">Automatically redirects Medium articles to Freedium</p>
     </div>
