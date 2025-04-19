@@ -25,19 +25,24 @@ const isArticlePage = () => {
 if (isArticlePage()) {
     // Get current date in YYYY-MM-DD format
     const today = new Date().toISOString().split('T')[0];
+    console.log('Today:', today);
     
     // Increment the article count and daily stats
     browser.storage.local.get(['articleCount', 'dailyStats']).then((result) => {
+        console.log('Current storage:', result);
         const currentCount = result.articleCount || 0;
         const dailyStats = result.dailyStats || {};
         
         // Update daily stats
         dailyStats[today] = (dailyStats[today] || 0) + 1;
+        console.log('Updated daily stats:', dailyStats);
         
         // Save both total count and daily stats
         browser.storage.local.set({
             articleCount: currentCount + 1,
             dailyStats: dailyStats
+        }).then(() => {
+            console.log('Storage updated successfully');
         });
     });
     

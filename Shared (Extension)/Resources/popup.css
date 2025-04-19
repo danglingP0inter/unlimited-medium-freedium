@@ -71,6 +71,12 @@ h1 {
     border-radius: 8px;
     padding: 10px;
     display: none;
+    position: relative;
+}
+
+.chart-container canvas {
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .info {

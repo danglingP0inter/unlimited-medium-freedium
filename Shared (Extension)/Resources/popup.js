@@ -1,10 +1,12 @@
 // Get and display the article count
 browser.storage.local.get(['articleCount', 'dailyStats']).then((result) => {
+    console.log('Storage data:', result);
     const count = result.articleCount || 0;
     document.getElementById('articleCount').textContent = count;
 
     // Get daily stats or initialize if not present
     const dailyStats = result.dailyStats || {};
+    console.log('Daily stats:', dailyStats);
     
     // Get last 7 days
     const last7Days = Array.from({length: 7}, (_, i) => {
@@ -12,6 +14,7 @@ browser.storage.local.get(['articleCount', 'dailyStats']).then((result) => {
         date.setDate(date.getDate() - i);
         return date.toISOString().split('T')[0];
     }).reverse();
+    console.log('Last 7 days:', last7Days);
 
     // Prepare data for chart
     const labels = last7Days.map(date => {
@@ -20,14 +23,17 @@ browser.storage.local.get(['articleCount', 'dailyStats']).then((result) => {
     });
 
     const data = last7Days.map(date => dailyStats[date] || 0);
+    console.log('Chart data:', data);
 
     // Check if there's any data to show
     const hasData = data.some(count => count > 0);
+    console.log('Has data:', hasData);
     const chartContainer = document.querySelector('.chart-container');
     
     if (hasData) {
         // Show chart container
         chartContainer.style.display = 'block';
+        console.log('Showing chart container');
         
         // Create chart
         const ctx = document.getElementById('dailyChart').getContext('2d');
@@ -64,6 +70,7 @@ browser.storage.local.get(['articleCount', 'dailyStats']).then((result) => {
     } else {
         // Hide chart container if no data
         chartContainer.style.display = 'none';
+        console.log('Hiding chart container');
     }
 });
 
