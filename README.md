@@ -41,6 +41,10 @@ The extension recognizes and redirects the following Medium URL patterns:
 3. Use the toggle to enable/disable the extension
 4. Visit any Medium article to automatically redirect to Freedium
 
+## Demo
+
+[▶️ View on GitHub Releases](https://github.com/danglingP0inter/unlimited-medium-freedium/releases/download/v1.0.0/extensionDemo.mov)
+
 ## Development
 
 The extension is built using:
