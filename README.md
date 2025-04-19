@@ -43,14 +43,14 @@ The extension recognizes and redirects the following Medium URL patterns:
 
 ## Demo
 
-[▶️ View on GitHub Releases](https://github.com/danglingP0inter/unlimited-medium-freedium/releases/download/v1.0.0/extensionDemo.mov)
+https://github.com/user-attachments/assets/bd87207b-fede-4c23-b89a-b95dc24133ef
 
 ## Development
 
 The extension is built using:
 - HTML/CSS/JavaScript for the popup interface
 - Browser extension APIs for functionality
-- Chart.js for statistics visualization (currently disabled)
+- Chart.js for statistics visualization (in development - currently disabled)
 
 ## License
 
